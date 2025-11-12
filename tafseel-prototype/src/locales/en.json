@@ -1,0 +1,159 @@
+{
+  "navigation": {
+    "home": "Home",
+    "designer": "Designer",
+    "manufacturer": "Manufacturer",
+    "nft": "NFT Marketplace",
+    "wallet": "Tafseel Cash",
+    "designSystem": "Design System"
+  },
+  "common": {
+    "cta": {
+      "design": "Design System",
+      "launch": "Launch App",
+      "explore": "Explore Platform",
+      "join": "Join the Community",
+      "mint": "Mint NFT",
+      "deposit": "Deposit",
+      "viewAll": "View All"
+    },
+    "status": {
+      "live": "Live",
+      "syncing": "Syncing",
+      "pending": "Pending"
+    },
+    "labels": {
+      "mode": "Mode",
+      "language": "Language",
+      "theme": "Theme",
+      "palette": "Palette"
+    }
+  },
+  "home": {
+    "hero": {
+      "arabicTitle": "تفصيل – البنية التحتية للأزياء",
+      "englishTitle": "Tafseel – The Fashion Infrastructure of the Future",
+      "subtitle": "Web3-powered fashion infrastructure connecting designers, manufacturers, and buyers with Polygon NFTs and BNPL finance.",
+      "primaryCta": "Explore Platform",
+      "secondaryCta": "Launch Demo"
+    },
+    "sections": {
+      "trendingDesigners": "Trending Designers",
+      "featuredManufacturers": "Featured Manufacturers",
+      "howItWorks": "How Tafseel Works",
+      "joinCommunity": "Join the Community"
+    },
+    "howItWorks": [
+      {
+        "title": "Design",
+        "description": "Creators upload 3D-ready garments and choose instant NFT minting or immersive storefront deployment."
+      },
+      {
+        "title": "Manufacture",
+        "description": "Factories receive smart contracts with bill of materials, deliverables, and automated QA checkpoints."
+      },
+      {
+        "title": "Distribute",
+        "description": "Omnichannel commerce flows to Tafseel Mall, Marketing partners, and Polygon NFT marketplace simultaneously."
+      },
+      {
+        "title": "Settle",
+        "description": "Tafseel Cash wallet clears TFT ↔ SAR with BNPL partners (Tap, Tamara, Taby) and designer revenue splits."
+      }
+    ],
+    "community": {
+      "title": "Join the Community",
+      "description": "Tap into the Tafseel guild of designers, ateliers, fabric mills, and digital curators building the future of fashion infrastructure."
+    }
+  },
+  "designer": {
+    "title": "Designer Control Room",
+    "subtitle": "Upload collections, mint Polygon NFTs, and orchestrate immersive Tafseel Mall storefronts in real time.",
+    "actions": {
+      "upload": "Upload a Design",
+      "choose": "Choose NFT or Store",
+      "preview": "Preview Experience"
+    },
+    "notifications": {
+      "title": "Live Activity",
+      "minted": "New NFT minted on Polygon",
+      "storefront": "Storefront experience synced",
+      "factory": "Factory collaboration request received"
+    },
+    "metrics": {
+      "ready": "Ready for Minting",
+      "approved": "Factory Approved",
+      "bnpl": "BNPL Eligible",
+      "royalty": "Royalty Split"
+    }
+  },
+  "manufacturer": {
+    "title": "Manufacturer Operations",
+    "subtitle": "Smart contracts, production milestones, and live requests from Tafseel designers in one workspace.",
+    "contracts": {
+      "title": "Active Contracts",
+      "cta": "Review Contract"
+    },
+    "requests": {
+      "title": "Live Requests",
+      "newRequest": "New production request arrived",
+      "capacity": "Capacity synced with Tafseel grid"
+    },
+    "status": {
+      "inProgress": "In production",
+      "awaiting": "Awaiting sign-off",
+      "complete": "Completed"
+    }
+  },
+  "nft": {
+    "title": "Polygon NFT Marketplace",
+    "subtitle": "Collect limited-edition garments, authenticate ownership, and unlock manufacturing rights on-chain.",
+    "filters": {
+      "all": "All",
+      "auction": "Auction",
+      "fixed": "Fixed Price",
+      "verified": "Verified",
+      "categories": "Categories"
+    },
+    "badges": {
+      "polygon": "Polygon",
+      "edition": "Edition",
+      "reserve": "Reserve"
+    }
+  },
+  "wallet": {
+    "title": "Tafseel Cash Wallet",
+    "subtitle": "Manage TFT stable token, settle manufacturing payouts, and connect BNPL rails instantly.",
+    "balance": {
+      "label": "Total Balance",
+      "tft": "TFT Balance",
+      "sar": "Equivalent in SAR"
+    },
+    "actions": {
+      "deposit": "Deposit via Tap",
+      "bnpl": "Activate BNPL",
+      "convert": "Convert TFT → SAR"
+    },
+    "activity": {
+      "title": "Recent Activity"
+    }
+  },
+  "designSystem": {
+    "title": "Design System",
+    "subtitle": "Typography, palette, motions, and reusable components tuned to the extracted Tafseel DNA.",
+    "typography": {
+      "english": "Montserrat – Latin",
+      "arabic": "Tajawal – Arabic"
+    },
+    "palette": {
+      "title": "Dynamic Palette",
+      "description": "Upload a logo to regenerate the live Tailwind tokens for primary, secondary, accent, neutral, surface, and background."
+    },
+    "components": {
+      "title": "Component Variants",
+      "buttons": "Buttons",
+      "cards": "Cards",
+      "toggles": "Toggles"
+    }
+  }
+}
