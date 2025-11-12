@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-english: "Montserrat", system-ui, sans-serif;
+  --font-arabic: "Tajawal", system-ui, sans-serif;
+
+  --color-primary: 140 78 255;
+  --color-on-primary: 255 255 255;
+  --color-secondary: 0 220 255;
+  --color-on-secondary: 7 16 27;
+  --color-accent: 120 203 255;
+  --color-on-accent: 7 16 27;
+  --color-neutral: 33 45 68;
+  --color-text: 12 15 24;
+  --color-text-muted: 92 104 128;
+  --color-text-inverse: 245 248 255;
+  --color-background: 246 247 251;
+  --color-surface: 255 255 255;
+  --color-border: 196 204 220;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-primary: 165 120 255;
+  --color-on-primary: 9 11 18;
+  --color-secondary: 0 205 255;
+  --color-on-secondary: 7 16 27;
+  --color-accent: 110 220 255;
+  --color-on-accent: 9 11 18;
+  --color-neutral: 160 170 190;
+  --color-text: 235 240 255;
+  --color-text-muted: 150 160 185;
+  --color-text-inverse: 12 15 24;
+  --color-background: 11 11 12;
+  --color-surface: 23 24 31;
+  --color-border: 64 74 92;
+}
+
+@layer base {
+  *, *::before, *::after {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+    background-color: rgb(var(--color-background));
+  }
+
+  body {
+    @apply min-h-screen bg-background text-text antialiased transition-colors duration-300;
+    font-feature-settings: "ss01" on, "liga" on;
+    background-image: radial-gradient(
+        circle at 20% 20%,
+        rgba(var(--color-accent), 0.12),
+        transparent 45%
+      ),
+      radial-gradient(
+        circle at 80% 0%,
+        rgba(var(--color-primary), 0.16),
+        transparent 50%
+      ),
+      linear-gradient(135deg, rgba(var(--color-primary), 0.05), transparent 60%);
+  }
+
+  ::selection {
+    background: rgba(var(--color-primary), 0.32);
+    color: rgb(var(--color-on-primary));
+  }
+}
+
+@layer utilities {
+  .glass {
+    backdrop-filter: blur(18px);
+    background: linear-gradient(
+      135deg,
+      rgba(var(--color-surface), 0.72),
+      rgba(var(--color-surface), 0.4)
+    );
+    border: 1px solid rgba(var(--color-border), 0.48);
+  }
+
+  .text-gradient {
+    background: linear-gradient(
+      120deg,
+      rgba(var(--color-primary), 1),
+      rgba(var(--color-secondary), 1),
+      rgba(var(--color-accent), 1)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
